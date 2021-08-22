@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.cookie{
+				position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    font-size:250px;
+    transition-duration: 0.5s;
+}
+.score{
+    font-family: "Josefin Sans";
+    font-size: 150%;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.cookie:active{
+				font-size: 220px;
+}
